@@ -1,0 +1,25 @@
+var NAVTREEINDEX0 =
+{
+"_data_serializer_lib_8h_source.html":[1,0,0,0,0,0,0],
+"annotated.html":[0,0],
+"class_u_data_serializer_lib.html":[0,0,1],
+"classes.html":[0,1],
+"dir_06a99cbfca42066f6e69ef5e67bf292f.html":[1,0,0,0,0],
+"dir_689ef596b00ab050f663287e60a49077.html":[1,0,0,0],
+"dir_74389ed8173ad57b461b9d623a1f3867.html":[1,0,0],
+"dir_c3755aae1a5966aa873258c331120276.html":[1,0,0,0,0,0],
+"files.html":[1,0],
+"functions.html":[0,3,0],
+"functions_func.html":[0,3,1],
+"functions_vars.html":[0,3,2],
+"hierarchy.html":[0,2],
+"index.html":[],
+"pages.html":[],
+"struct_f_serialization_header.html":[0,0,0],
+"struct_f_serialization_header.html#a057e9a3a84162405e03a30bd671282d6":[0,0,0,0],
+"struct_f_serialization_header.html#a1790362f9c332fc7a3c27128a52a27cd":[0,0,0,5],
+"struct_f_serialization_header.html#a8fb344d1802eca5d44f3fbbd123af231":[0,0,0,1],
+"struct_f_serialization_header.html#aa677aa8e32dfd64f9c5e1d96e02f0f4c":[0,0,0,4],
+"struct_f_serialization_header.html#ac6fe50b6044c6e196220b59648a64f0a":[0,0,0,3],
+"struct_f_serialization_header.html#acc9253d4c732a4d4f3f5d9d5139e6cff":[0,0,0,2]
+};
