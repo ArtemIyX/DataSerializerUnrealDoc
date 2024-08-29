@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gameclassname_0',['GameClassName',['../struct_f_serialization_header.html#a1790362f9c332fc7a3c27128a52a27cd',1,'FSerializationHeader']]]
+  ['bytes_0',['Bytes',['../class_u_serializer_object.html#afed09066d025bcbd112304b6cd9d314d',1,'USerializerObject']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['read_0',['Read',['../struct_f_serialization_header.html#ac6fe50b6044c6e196220b59648a64f0a',1,'FSerializationHeader']]],
-  ['readbytesfromdisk_1',['ReadBytesFromDisk',['../class_u_data_serializer_lib.html#a1aa29e4fb275a52f8c5a7aaa4d79c423',1,'UDataSerializerLib']]],
-  ['readcompressedbytesfromdisk_2',['ReadCompressedBytesFromDisk',['../class_u_data_serializer_lib.html#a4ce7bbfd3ee306b5b151668d06946b45',1,'UDataSerializerLib']]]
+  ['fdataserializermodule_0',['FDataSerializerModule',['../class_f_data_serializer_module.html',1,'']]],
+  ['fserializationheader_1',['FSerializationHeader',['../struct_f_serialization_header.html',1,'FSerializationHeader'],['../struct_f_serialization_header.html#a057e9a3a84162405e03a30bd671282d6',1,'FSerializationHeader::FSerializationHeader()'],['../struct_f_serialization_header.html#a8fb344d1802eca5d44f3fbbd123af231',1,'FSerializationHeader::FSerializationHeader(TSubclassOf&lt; UObject &gt; ObjectType)']]]
 ];

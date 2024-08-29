@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Data serializer plugin: Member List</title>
+<title>Data serializer plugin: DataSerializer.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('struct_f_serialization_header.html',''); initResizable(true); });
+$(function(){initNavTree('_data_serializer_8h_source.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -98,23 +98,33 @@ $(function(){initNavTree('struct_f_serialization_header.html',''); initResizable
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">FSerializationHeader Member List</div></div>
+  <div class="headertitle"><div class="title">DataSerializer.h</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the complete list of members for <a class="el" href="struct_f_serialization_header.html">FSerializationHeader</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="struct_f_serialization_header.html#acc9253d4c732a4d4f3f5d9d5139e6cff">Empty</a>()</td><td class="entry"><a class="el" href="struct_f_serialization_header.html">FSerializationHeader</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="struct_f_serialization_header.html#a057e9a3a84162405e03a30bd671282d6">FSerializationHeader</a>()</td><td class="entry"><a class="el" href="struct_f_serialization_header.html">FSerializationHeader</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_f_serialization_header.html#a8fb344d1802eca5d44f3fbbd123af231">FSerializationHeader</a>(TSubclassOf&lt; UObject &gt; ObjectType)</td><td class="entry"><a class="el" href="struct_f_serialization_header.html">FSerializationHeader</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="struct_f_serialization_header.html#a1790362f9c332fc7a3c27128a52a27cd">GameClassName</a></td><td class="entry"><a class="el" href="struct_f_serialization_header.html">FSerializationHeader</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_f_serialization_header.html#ac6fe50b6044c6e196220b59648a64f0a">Read</a>(FMemoryReader &amp;MemoryReader)</td><td class="entry"><a class="el" href="struct_f_serialization_header.html">FSerializationHeader</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="struct_f_serialization_header.html#aa677aa8e32dfd64f9c5e1d96e02f0f4c">Write</a>(FMemoryWriter &amp;MemoryWriter)</td><td class="entry"><a class="el" href="struct_f_serialization_header.html">FSerializationHeader</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Copyright Epic Games, Inc. All Rights Reserved.</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;Modules/ModuleManager.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_f_data_serializer_module.html">    8</a></span><span class="keyword">class </span><a class="code hl_class" href="class_f_data_serializer_module.html">FDataSerializerModule</a> : <span class="keyword">public</span> IModuleInterface</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="class_f_data_serializer_module.html#a9a1fe1f1417a90e75a157bf3a527050f">   13</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_f_data_serializer_module.html#a9a1fe1f1417a90e75a157bf3a527050f">StartupModule</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> ShutdownModule() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>};</div>
+</div>
+<div class="ttc" id="aclass_f_data_serializer_module_html"><div class="ttname"><a href="class_f_data_serializer_module.html">FDataSerializerModule</a></div><div class="ttdef"><b>Definition</b> DataSerializer.h:9</div></div>
+<div class="ttc" id="aclass_f_data_serializer_module_html_a9a1fe1f1417a90e75a157bf3a527050f"><div class="ttname"><a href="class_f_data_serializer_module.html#a9a1fe1f1417a90e75a157bf3a527050f">FDataSerializerModule::StartupModule</a></div><div class="ttdeci">virtual void StartupModule() override</div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><b>DataSerializer.h</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

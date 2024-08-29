@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getutf8bytes_0',['GetUtf8Bytes',['../class_u_data_serializer_lib.html#a4b4763cd32961022c938ea9c296f9573',1,'UDataSerializerLib']]]
+  ['fserializationheader_0',['FSerializationHeader',['../struct_f_serialization_header.html#a057e9a3a84162405e03a30bd671282d6',1,'FSerializationHeader::FSerializationHeader()'],['../struct_f_serialization_header.html#a8fb344d1802eca5d44f3fbbd123af231',1,'FSerializationHeader::FSerializationHeader(TSubclassOf&lt; UObject &gt; ObjectType)']]]
 ];

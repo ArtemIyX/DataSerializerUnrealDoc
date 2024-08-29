@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['deserializeobject_0',['DeserializeObject',['../class_u_data_serializer_lib.html#ab41d3b682bbbeeb09d6c09a959459fae',1,'UDataSerializerLib']]],
-  ['deserializeobjects_1',['DeSerializeObjects',['../class_u_data_serializer_lib.html#a622060d72438a457951f724a66ab224e',1,'UDataSerializerLib']]]
+  ['clear_0',['Clear',['../class_u_de_serializer_object.html#a0f6c1e11a91dc72a5411771711fff8d7',1,'UDeSerializerObject::Clear()'],['../class_u_serializer_object.html#ac0e3614dcb5b79e97bc387a807c572f5',1,'USerializerObject::Clear()']]]
 ];
