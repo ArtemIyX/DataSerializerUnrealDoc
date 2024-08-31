@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Icon128.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Data serializer plugin<span id="projectnumber">&#160;v1.0.1</span>
+   <div id="projectname">Data serializer plugin<span id="projectnumber">&#160;v1.0.2</span>
    </div>
    <div id="projectbrief">DataSerializer</div>
   </td>
@@ -191,7 +191,14 @@ $(function(){initNavTree('_de_serializer_object_8h_source.html',''); initResizab
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    UFUNCTION(BlueprintCallable, Category=&quot;<a class="code hl_class" href="class_u_de_serializer_object.html">UDeSerializerObject</a>|DeSerialization&quot;)</div>
 <div class="line"><a id="l00178" name="l00178"></a><span class="lineno"><a class="line" href="class_u_de_serializer_object.html#aaa1485ee771b0db8056712d88dd9375f">  178</a></span>    virtual <span class="keywordtype">bool</span> TryReadString(FString&amp; OutString);</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>};</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    UFUNCTION(BlueprintCallable, Category=&quot;<a class="code hl_class" href="class_u_de_serializer_object.html">UDeSerializerObject</a>|DeSerialization&quot;)</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno"><a class="line" href="class_u_de_serializer_object.html#ad48f9db39a19edab230583e2e77c9b75">  187</a></span>    virtual <span class="keywordtype">bool</span> TryReadObject(UObject* InObjectOuter, UObject*&amp; OutObject);</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span> </div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    UFUNCTION(BlueprintCallable, Category=&quot;<a class="code hl_class" href="class_u_de_serializer_object.html">UDeSerializerObject</a>|DeSerialization&quot;)</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno"><a class="line" href="class_u_de_serializer_object.html#a05a398421cd3cab3a35600f0fe6fbfd7">  196</a></span>    virtual <span class="keywordtype">bool</span> TryReadObjects(UObject* InObjectOuter, TArray&lt;UObject*&gt;&amp; OutObjects);</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>};</div>
 </div>
 <div class="ttc" id="aclass_u_de_serializer_object_html"><div class="ttname"><a href="class_u_de_serializer_object.html">UDeSerializerObject</a></div><div class="ttdoc">A class responsible for deserializing data from a memory buffer.</div><div class="ttdef"><b>Definition</b> DeSerializerObject.h:17</div></div>
 <div class="ttc" id="aclass_u_de_serializer_object_html_a3ef4ee0014b0a95675a3e529b9042c53"><div class="ttname"><a href="class_u_de_serializer_object.html#a3ef4ee0014b0a95675a3e529b9042c53">UDeSerializerObject::GetMemoryReaderRef</a></div><div class="ttdeci">FMemoryReader &amp; GetMemoryReaderRef() const</div></div>

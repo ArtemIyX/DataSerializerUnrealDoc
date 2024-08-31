@@ -11,6 +11,8 @@ var class_u_de_serializer_object =
     [ "TryReadInt64", "class_u_de_serializer_object.html#a8c5de976a7858c19b81a04c68ac29cda", null ],
     [ "TryReadIntPoint", "class_u_de_serializer_object.html#ab699921c85039722fb0046c5c3dde68b", null ],
     [ "TryReadIntVector", "class_u_de_serializer_object.html#ad7d3e7995886101dc89ecf10113e3079", null ],
+    [ "TryReadObject", "class_u_de_serializer_object.html#ad48f9db39a19edab230583e2e77c9b75", null ],
+    [ "TryReadObjects", "class_u_de_serializer_object.html#a05a398421cd3cab3a35600f0fe6fbfd7", null ],
     [ "TryReadRotator", "class_u_de_serializer_object.html#a5e935668c20545ace012df86599daf17", null ],
     [ "TryReadString", "class_u_de_serializer_object.html#aaa1485ee771b0db8056712d88dd9375f", null ],
     [ "TryReadT", "class_u_de_serializer_object.html#a5aa24f14e8caffee99a5073ea61c0514", null ],

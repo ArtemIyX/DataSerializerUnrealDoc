@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Icon128.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Data serializer plugin<span id="projectnumber">&#160;v1.0.1</span>
+   <div id="projectname">Data serializer plugin<span id="projectnumber">&#160;v1.0.2</span>
    </div>
    <div id="projectbrief">DataSerializer</div>
   </td>
@@ -166,6 +166,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()<
 <tr class="memitem:a093fb1de4d839d78391ee7d626445c58" id="r_a093fb1de4d839d78391ee7d626445c58"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a093fb1de4d839d78391ee7d626445c58">SerializeString</a> (UPARAM(DisplayName=&quot;Value&quot;) FString InString)</td></tr>
 <tr class="memdesc:a093fb1de4d839d78391ee7d626445c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes a string (FString).  <br /></td></tr>
 <tr class="separator:a093fb1de4d839d78391ee7d626445c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86c30e35cf23dc73468ee8c2cc8e321d" id="r_a86c30e35cf23dc73468ee8c2cc8e321d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86c30e35cf23dc73468ee8c2cc8e321d">SerializeObject</a> (UPARAM(DisplayName=&quot;Value&quot;) UObject *InObject)</td></tr>
+<tr class="memdesc:a86c30e35cf23dc73468ee8c2cc8e321d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes a object (UObject).  <br /></td></tr>
+<tr class="separator:a86c30e35cf23dc73468ee8c2cc8e321d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9824e32904591855a00c4826bf514ee" id="r_ac9824e32904591855a00c4826bf514ee"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9824e32904591855a00c4826bf514ee">SerializeObjects</a> (UPARAM(DisplayName=&quot;Value&quot;) const TArray&lt; UObject * &gt; &amp;InObjects)</td></tr>
+<tr class="memdesc:ac9824e32904591855a00c4826bf514ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes a array of objects (TArray&lt;UObject*&gt;).  <br /></td></tr>
+<tr class="separator:ac9824e32904591855a00c4826bf514ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -538,6 +544,72 @@ Protected Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">InVector</td><td>The FIntVector to serialize. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a86c30e35cf23dc73468ee8c2cc8e321d" name="a86c30e35cf23dc73468ee8c2cc8e321d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86c30e35cf23dc73468ee8c2cc8e321d">&#9670;&#160;</a></span>SerializeObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void USerializerObject::SerializeObject </td>
+          <td>(</td>
+          <td class="paramtype">UPARAM(DisplayName=&quot;Value&quot;) UObject *</td>          <td class="paramname"><span class="paramname"><em>InObject</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Serializes a object (UObject). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">InObject</td><td>The UObject to serialize. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac9824e32904591855a00c4826bf514ee" name="ac9824e32904591855a00c4826bf514ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9824e32904591855a00c4826bf514ee">&#9670;&#160;</a></span>SerializeObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void USerializerObject::SerializeObjects </td>
+          <td>(</td>
+          <td class="paramtype">UPARAM(DisplayName=&quot;Value&quot;) const TArray&lt; UObject * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>InObjects</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Serializes a array of objects (TArray&lt;UObject*&gt;). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">InObjects</td><td>The Array of UObjects to serialize. </td></tr>
   </table>
   </dd>
 </dl>

@@ -12,6 +12,8 @@ var class_u_serializer_object =
     [ "SerializeFloat", "class_u_serializer_object.html#a11759bf38a2af0d3fec5721dd9849886", null ],
     [ "SerializeInt", "class_u_serializer_object.html#a1c916d13c7d27fd9ce0a2910ca43b4e9", null ],
     [ "SerializeIntVector", "class_u_serializer_object.html#a634bff4604c458a66fe5f8e71d9b1b3b", null ],
+    [ "SerializeObject", "class_u_serializer_object.html#a86c30e35cf23dc73468ee8c2cc8e321d", null ],
+    [ "SerializeObjects", "class_u_serializer_object.html#ac9824e32904591855a00c4826bf514ee", null ],
     [ "SerializePoint", "class_u_serializer_object.html#ac4cf0fb80ef75ec1b534364bb616a99b", null ],
     [ "SerializeRotator", "class_u_serializer_object.html#a9de27e19c970156b72f37de220501b42", null ],
     [ "SerializeString", "class_u_serializer_object.html#a093fb1de4d839d78391ee7d626445c58", null ],
